@@ -1,13 +1,9 @@
 import BallCanvas from "./BallMotion";
 import { motion } from "framer-motion"
-import htmlIcon from '../assets/html.jpg';
-import css from "../assets/css3.jpg";
-import js from "../assets/javascript.jpg";
 import reaact from "../assets/react.jpg";
 import node from "../assets/node.jpg";
 import Express from "../assets/Express.png";
 import mongoDB from "../assets/MongoDB.png";
-import tailwind from "../assets/tailwindcss.jpg";
 import github from "../assets/Github.jpg";
 import Framer from "../assets/Framer.jpg";
 import gsap from "../assets/gsap.png";
@@ -16,19 +12,19 @@ import postman from "../assets/postman.jpg";
 const technologiesData = [
   {
     name: "HTML 5",
-    icon: htmlIcon,
+    icon: "/tech/html.jpg",
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: "/tech/css3.jpg",
   },
   {
     name: "JavaScript",
-    icon: js,
+    icon: "/tech/javascript.jpg",
   },
   {
     name: "tailwind",
-    icon: tailwind,
+    icon: "/tech/tailwindcss.jpg",
   },
   {
     name: "React JS",
