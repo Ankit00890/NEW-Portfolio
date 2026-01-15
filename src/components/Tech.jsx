@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import htmlIcon from '../assets/htmlIcon.jpg';
 import css from "../assets/css.jpg";
 import js from "../assets/js.jpg";
-import reaact from "../assets/reaact.jpg";
+import reaact from "../assets/react.jpg";
 import node from "../assets/node.jpg";
 import Express from "../assets/Express.png";
 import mongoDB from "../assets/MongoDB.png";

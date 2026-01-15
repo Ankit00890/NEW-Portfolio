@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import interviewPrep from '../assets/interview prep.png';
+import interviewPrep from '../assets/interview-prep.png';
 import Portfolio from '../assets/Portfolio.png';
 import Roda from '../assets/Roda.png'
 const Project = () => {
@@ -19,7 +19,7 @@ const Project = () => {
         {
             title: "Portfolio",
             description: "A modern, fully responsive personal portfolio website featuring glassmorphism design and smooth animations.",
-            image: Portfolio, 
+            image: Portfolio,
             tags: ["React", "Tailwind CSS", "Framer Motion"],
             links: {
                 github: "https://github.com/Ankit00890/Portfolio",
@@ -29,7 +29,7 @@ const Project = () => {
         {
             title: "E-Commerce Platform",
             description: "ongoing",
-            image: "", 
+            image: "",
             tags: ["MERN Stack", "Stripe", "Redux"],
             links: {
                 github: "#",
