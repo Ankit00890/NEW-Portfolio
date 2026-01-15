@@ -22,7 +22,7 @@ const Project = () => {
             image: Portfolio, 
             tags: ["React", "Tailwind CSS", "Framer Motion"],
             links: {
-                github: "https://github.com/Ankit00890/Portfolio",
+                github: "https://github.com/Ankit00890/NEW-Portfolio",
                 live: "#"
             }
         },
