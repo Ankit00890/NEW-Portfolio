@@ -96,12 +96,21 @@ const Project = () => {
                             <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#1cd8d2] transition-colors">{project.title}</h3>
                             <p className="text-gray-400 text-sm mb-4 line-clamp-3">{project.description}</p>
 
-                            <div className="flex flex-wrap gap-2">
+                            <div className="flex flex-wrap gap-2 mb-4">
                                 {project.tags.map((tag, i) => (
                                     <span key={i} className="text-xs px-3 py-1 bg-white/5 rounded-full text-[#1cd8d2] border border-[#1cd8d2]/20">
                                         {tag}
                                     </span>
                                 ))}
+                            </div>
+
+                            <div className="flex gap-4">
+                                <a href={project.links.live} target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-white hover:text-[#1cd8d2] flex items-center gap-1 transition-colors">
+                                    View Live <FaExternalLinkAlt size={12} />
+                                </a>
+                                <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-white hover:text-[#1cd8d2] flex items-center gap-1 transition-colors">
+                                    GitHub <FaGithub size={14} />
+                                </a>
                             </div>
                         </div>
                     </motion.div>
