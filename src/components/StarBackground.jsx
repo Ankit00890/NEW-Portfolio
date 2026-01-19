@@ -61,7 +61,7 @@ export const StarBackground = () => {
           key={meteor.id}
           className="star animate-meteor"
           style={{
-            width: meteor.size * 50+ "px",
+            width: meteor.size * 50 + "px",
             height: meteor.size * 2 + "px",
             left: meteor.x + "%",
             top: meteor.y + "%",

@@ -1,4 +1,5 @@
 import BallCanvas from "./BallMotion";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion"
 import reaact from "../assets/react.jpg";
 import node from "../assets/node.jpg";
@@ -62,6 +63,23 @@ const technologiesData = [
 
 
 const Tech = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+    setIsMobile(mediaQuery.matches);
+
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
+
   return (
     <section id="skills" className="max-w-7xl mx-auto relative z-10 py-20">
       {/* Header */}
@@ -80,7 +98,28 @@ const Tech = () => {
       <div className='flex flex-row flex-wrap justify-center gap-10'>
         {technologiesData.map((technology) => (
           <div className='w-28 h-28' key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+            {isMobile ? (
+              <motion.div
+                className="w-full h-full flex items-center justify-center bg-white/10 rounded-full backdrop-blur-sm border border-white/20 shadow-xl overflow-hidden p-2"
+                initial={{ y: -10 }}
+                animate={{ y: [10, -10] }}
+                transition={{
+                  duration: 2.5,
+                  repeat: Infinity,
+                  repeatType: "reverse",
+                  ease: "easeInOut",
+                }}
+              >
+                <img
+                  src={technology.icon}
+                  alt={technology.name}
+                  className="w-full h-full object-contain filter drop-shadow-lg transform scale-110"
+                  loading="lazy"
+                />
+              </motion.div>
+            ) : (
+              <BallCanvas icon={technology.icon} />
+            )}
           </div>
         ))}
       </div>
