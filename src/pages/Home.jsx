@@ -122,8 +122,8 @@ export default function Home() {
                   className='px-6 py-3 rounded-full font-medium text-lg text-white bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63]
            shadow-lg hover:scale-107 transition-all'
                 >view My work</a>
-                <a href="#"
-                  download
+                <a href="https://drive.google.com/file/d/1d86wn7dKDMpwqzHN0DNcgdRM-f7asYfs/view?usp=sharing"
+                  
                   className="px-6 py-3 rounded-full font-medium text-lg text-black bg-white  shadow-lg hover:scale-107 transition-all"
                 > My Resume</a>
               </motion.div>
