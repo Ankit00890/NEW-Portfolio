@@ -4,6 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import interviewPrep from '../assets/interview-prep.png';
 import Portfolio from '../assets/Portfolio.png';
 import Roda from '../assets/Roda.png'
+import Chat-App from '../assets/chat-app';
 const Project = () => {
     const projects = [
         {
