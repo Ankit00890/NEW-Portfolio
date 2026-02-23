@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import interviewPrep from '../assets/interview-prep.png';
 import Portfolio from '../assets/Portfolio.png';
 import Roda from '../assets/Roda.png'
-import Chat from '../assets/chat';
+import chat from '../assets/chat.png';
 const Project = () => {
     const projects = [
         {
@@ -28,7 +28,7 @@ const Project = () => {
             }
         },
         {
-            title: "Chat",
+            title: "chat",
             description: "Built a full-stack real-time chat application using React, Node.js, Express.js, and MongoDB with a responsive, mobile-friendly interface.",
             image: chat,
             tags: ["MERN Stack", "Socket.IO", "node","react"],
