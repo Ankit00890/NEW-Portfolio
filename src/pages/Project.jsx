@@ -27,13 +27,14 @@ const Project = () => {
             }
         },
         {
-            title: "E-Commerce Platform",
-            description: "ongoing",
-            image: "",
-            tags: ["MERN Stack", "Stripe", "Redux"],
+            title: "Chat-App",
+            description: "Built a full-stack real-time chat application using React, Node.js, Express.js, and MongoDB with
+a responsive, mobile-friendly interface.",
+            image: "chat-app",
+            tags: ["MERN Stack", "Socket.IO", "node","react],
             links: {
-                github: "#",
-                live: "#"
+                github: "https://github.com/Ankit00890/Chat-App",
+                live: "https://chat-app-alpha-flame-48.vercel.app/login"
             }
         },
         {
