@@ -37,14 +37,7 @@ const Project = () => {
                 live: "https://chat-app-alpha-flame-48.vercel.app/login"
             }
         },
-        {
-            title: "Roda Beauty",
-            description: "A modern beauty website showcasing skincare and cosmetic products.",
-            image: Roda,
-            tags: ["WordPress", "Elementor", "WooCommerce"],
-            links: {
-                live: "https://rodabeauty.gt.tc/"
-            }
+        
         }
     ];
 
