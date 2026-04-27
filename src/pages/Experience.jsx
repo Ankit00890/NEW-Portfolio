@@ -42,7 +42,7 @@ const Experience = () => {
                                     <div className="bg-[#1cd8d2]/10 p-2 rounded-lg text-[#1cd8d2]">
                                         <FaBriefcase size={20} />
                                     </div>
-                                    <h3 className="text-2xl font-bold text-white">Full Stack & WordPress Developer</h3>
+                                    <h3 className="text-2xl font-bold text-white">Full Stack Developer</h3>
                                 </div>
 
                                 <h4 className="text-lg font-semibold text-[#1cd8d2] mb-4">Zyrixcraft</h4>
