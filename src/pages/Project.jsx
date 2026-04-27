@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import interviewPrep from '../assets/interview-prep.png';
 import Portfolio from '../assets/Portfolio.png';
-import Roda from '../assets/Roda.png'
 import chat from '../assets/chat.png';
 const Project = () => {
     const projects = [
